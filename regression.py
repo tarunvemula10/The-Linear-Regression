@@ -7,7 +7,7 @@ from sklearn import metrics
 from sklearn.metrics import r2_score
 import array
 
-data = pd.read_csv('C:\\Data set\\salary_data.csv')
+data = pd.read_csv('salary_data.csv')
 
 #to print the number of rows and columns in the data set
 print(data.shape)
